@@ -1,10 +1,11 @@
-package openWeatherAPITest;
+package edu.eci.arsw.saenz_arsw_t2;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.apache.http.HttpStatus;
-import org.junit.Test;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
@@ -35,3 +36,4 @@ public class UnirestTest {
     }
 
 }
+
