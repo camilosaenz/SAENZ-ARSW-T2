@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SAENZ - ARSW -T2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/webjars/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/apiclient.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/apiclient.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="/webjars/bootstrap/4.1.2/css/bootstrap.min.css"/>
+</head>
+<style>
+    body {
+        background-color: #ffffff;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+    input,
+    button,
+    div,
+    body,
+    label {
+        font-family: 'Brush Script MT', cursive;
+        color: #000000;
+    }
+</style>
+
+<body>
+    <div align="center">
+        <table>
+            <tr id="titulo">
+                <th>
+                    <h1>
+                        <font size=10>SAENZ - ARSW T2</font>
+                    </h1>
+                </th>
+            </tr>
+        </table>
+        <div id="entrada">
+            <div id="name">
+                <a>Nombre Ciudad: </a>
+            </div>
+            <div id="input">
+                <input type="text" placeholder="Nombre Ciudad:" id="ciudad"><button type="button"
+                    onClick="app.buscar(ciudad.value)">Buscar</button>
+            </div>
+            <p></p>
+        </div>
+        <div id="contenido">
+            <textarea cols="75" rows="30" id="datos" readonly="readonly"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
