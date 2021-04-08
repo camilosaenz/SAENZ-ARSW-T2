@@ -1,11 +1,13 @@
 var api = apiclient;
-var app = (function () {
 
-    var city;
+app = (function () {
 
-    var buscar = function (data) {
+
+    var map;
+
+
+    function buscar(data) {
         $("#lblname").text("City: "+data.name);
-        console.info(data);
         document.getElementById("datos").textContent = "City: "+data.name+
         "\r\nId: "+data.id+
         "\r\nVisibility: "+data.visibility+
@@ -15,13 +17,21 @@ var app = (function () {
         "\r\nTemperatura Minima: "+data.main.temp_min+
         "\r\nCountry: "+data.sys.country+
         "\r\nLongitud: "+data.coord.lon+
-        "\r\nLatitud: "+data.coord.lat
-        ;
+        "\r\nLatitud: "+data.coord.lat;
+        createMap(data);
     }
-		
+
+    function createMap(data) {
+        map = new google.maps.Map(document.getElementById('mapa'), {
+            center: {lat: data.coord.lat, lng: data.coord.lon},
+            zoom: 10
+        });
+        console.info(data.coord.lon, data.coord.lat);
+    }
 
     return {
-        buscar: function(ciudad){
+
+        buscar: function (ciudad) {
             api.buscar(ciudad, buscar);
         }
     }
