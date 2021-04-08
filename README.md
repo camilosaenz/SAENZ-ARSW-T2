@@ -1,5 +1,61 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+Rubian Camilo Saenz Rodriguez
+
+## Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://saenz-arsw-t2.herokuapp.com/)
+
+## Test
+
+Prueba Postman con el Api Externo:
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/api-externo-postman.PNG?raw=true">
+</p>
+
+Prueba URL con Api Externo con Bogota:
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/api-externo.PNG?raw=true">
+</p>
+
+Prueba URL con Api Externo con Barcelona:
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/api-heroku.PNG?raw=true">
+</p>
+
+Prueba Postman Localhost Madrid con Api local
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/api-local-postman.PNG?raw=true">
+</p>
+
+Prueba con Localhost Bogota con Api local
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/api-local.PNG?raw=true">
+</p>
+
+FrontEnd de la Pagina en LocalHost
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/frontend.PNG?raw=true">
+</p>
+
+Javadoc
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/javadoc.PNG?raw=true">
+</p>
+
+Prueba FrontEnd con mapa direccionado en ciudad Medellin
+
+<p align="center"> 
+  <img src="https://github.com/camilosaenz/SAENZ-ARSW-T2/blob/master/images/test-map.PNG?raw=true">
+</p>
+
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
